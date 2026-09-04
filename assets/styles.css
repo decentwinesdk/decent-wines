@@ -427,3 +427,7 @@ section{padding:72px 0}
 .midtstillet .lede{margin-left:auto;margin-right:auto}
 .midtstillet .portraits{margin-left:auto;margin-right:auto}
 .midtstillet .eyebrow{margin-bottom:14px}
+
+/* de to tekster om portraetterne — auto-margener, saa de faktisk centreres */
+.midtstillet .lede.intro{margin:18px auto 36px}
+.midtstillet .lede.udtro{margin:34px auto 0}
