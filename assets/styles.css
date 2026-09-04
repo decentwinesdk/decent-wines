@@ -199,8 +199,9 @@ section{padding:78px 0}
 .news-consent{
   flex:0 0 100%;display:flex;gap:11px;align-items:flex-start;
   text-align:left;font-size:.85rem;line-height:1.55;color:var(--muted);
-  cursor:pointer;margin-top:2px;
+  cursor:pointer;margin-top:6px;
 }
+.news-consent span{max-width:46ch}
 .news-consent input[type="checkbox"]{
   appearance:none;-webkit-appearance:none;position:relative;
   flex:0 0 auto;width:18px;height:18px;margin:2px 0 0;border-radius:5px;
