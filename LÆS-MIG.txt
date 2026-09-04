@@ -1,0 +1,26 @@
+DECENT WINES — demo-website (udkast)
+by K&K Vinimport ApS
+
+INDHOLD
+-------
+• decent-wines-demo.html  → Ét-fils-udgave. Dobbeltklik og se demoet med det
+                             samme i en browser. Ingen server nødvendig.
+• index.html / vine.html / om-os.html / kontakt.html
+                           → Det "rigtige" fler-fils-site, klar til at lægge
+                             på en webhotel-server, som webshoppen kan bygges
+                             oven på senere.
+• assets/                  → CSS, JavaScript og billeder.
+
+SÅDAN SÆTTES DET ONLINE
+-----------------------
+Upload hele mappen (index.html + de andre + assets/) til en webserver.
+index.html er forsiden.
+
+NOTER
+-----
+• Nyhedsbrevs-formularen er en demo — den viser en kvittering, men sender
+  endnu ingen data. Kobles senere til fx Mailchimp, Klaviyo el.lign.
+• Priser: kun Bakuretsu Rosé (149 kr / 750 kr for 6) er kendt. Resten står
+  som "Pris på forespørgsel", til I fylder priser på.
+• Kontakt-mail (kontakt@decentwines.dk) er en pladsholder — ret til den rigtige.
+• Instagram linker til https://www.instagram.com/decentwines_dk/
