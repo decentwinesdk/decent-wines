@@ -408,3 +408,16 @@ section{padding:72px 0}
   .hero-bottle{display:none}
   .after-hero{padding-top:52px}
 }
+
+/* =================== PORTRÆTTER =================== */
+.portraits{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:500px}
+.portraits figure{margin:0}
+.portraits img{width:100%;height:auto;border:1px solid var(--rule)}
+.portraits figcaption,.producer-photo figcaption{
+  font-size:.74rem;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--muted);margin-top:11px;
+}
+.producer-photo{margin:0}
+.producer-photo figcaption{padding:0 2px}
+/* bliver ved med at staa side om side, ogsaa paa mobil */
+@media (max-width:640px){ .portraits{gap:14px;max-width:none} .portraits figcaption{font-size:.66rem;letter-spacing:.08em} }
