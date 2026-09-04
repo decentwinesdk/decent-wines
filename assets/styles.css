@@ -320,3 +320,22 @@ section{padding:72px 0}
 .entrance-img.contain{background:var(--paper-2)}
 .entrance-img.contain img{width:auto;height:86%;object-fit:contain}
 .producer-photo img{width:100%;height:auto;object-fit:cover}
+
+/* etikette-historier under specs */
+.etiket{
+  font-size:.86rem;color:var(--muted);line-height:1.55;
+  margin:14px 0 0;max-width:62ch;font-style:italic;
+}
+.etiket b{
+  display:block;font-style:normal;font-size:.66rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--wine);margin-bottom:3px;
+}
+
+/* smagekasse — tonet boks som i produktbladet */
+.smagekasse{
+  border-left:3px solid var(--wine);background:var(--paper-2);
+  padding:26px 30px;margin:16px 0 8px;max-width:640px;
+}
+.smagekasse h3{margin:0 0 8px}
+.smagekasse p{color:var(--ink-soft);font-size:.95rem;margin:0 0 16px;max-width:56ch}
+.smagekasse .price b{font-size:1.45rem}
