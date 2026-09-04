@@ -421,3 +421,9 @@ section{padding:72px 0}
 .producer-photo figcaption{padding:0 2px}
 /* bliver ved med at staa side om side, ogsaa paa mobil */
 @media (max-width:640px){ .portraits{gap:14px;max-width:none} .portraits figcaption{font-size:.66rem;letter-spacing:.08em} }
+
+/* midtstillet blok — bruges til portrætterne på Om os */
+.midtstillet{text-align:center}
+.midtstillet .lede{margin-left:auto;margin-right:auto}
+.midtstillet .portraits{margin-left:auto;margin-right:auto}
+.midtstillet .eyebrow{margin-bottom:14px}
