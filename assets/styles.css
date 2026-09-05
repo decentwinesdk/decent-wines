@@ -283,6 +283,34 @@ a.entrance-img:hover img{transform:scale(1.035)}
 
 /* =================== KONTAKT =================== */
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start}
+
+/* =================== KONTAKTFORMULAR =================== */
+.kontakt-form{display:grid;gap:15px;max-width:540px;position:relative;margin-top:22px}
+.kontakt-form .par{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.kontakt-form label{display:flex;flex-direction:column;gap:7px}
+.kontakt-form .lab{
+  font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--muted);font-weight:600;
+}
+.kontakt-form .lab i{font-style:normal;text-transform:none;letter-spacing:0;opacity:.75}
+.kontakt-form input[type="text"],
+.kontakt-form input[type="email"],
+.kontakt-form textarea{
+  width:100%;padding:12px 15px;border-radius:2px;
+  border:1px solid var(--rule);background:var(--paper);color:var(--ink);
+  font-size:.95rem;font-family:inherit;outline:none;
+  transition:border-color .2s var(--ease);
+}
+.kontakt-form input:focus,.kontakt-form textarea:focus{border-color:var(--wine)}
+.kontakt-form input::placeholder,.kontakt-form textarea::placeholder{color:#a79e92}
+.kontakt-form textarea{min-height:140px;resize:vertical;line-height:1.55}
+.kontakt-form button{justify-self:start;margin-top:4px}
+.kontakt-form button[disabled]{opacity:.55;cursor:default}
+.kontakt-form .hp{
+  position:absolute!important;left:-9999px!important;
+  width:1px!important;height:1px!important;opacity:0!important;pointer-events:none;
+}
+.kontakt-note{font-size:.82rem;line-height:1.6;color:var(--muted);max-width:52ch;margin:16px 0 0}
 .info-line{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--rule-soft)}
 .info-line:first-of-type{border-top:1px solid var(--rule)}
 .info-line svg{width:18px;height:18px;stroke:var(--wine);fill:none;stroke-width:1.5;flex:0 0 auto;margin-top:4px}
@@ -311,6 +339,7 @@ a.entrance-img:hover img{transform:scale(1.035)}
 /* =================== MOBIL =================== */
 @media (max-width:900px){
   .producer-body,.contact-grid{grid-template-columns:1fr;gap:30px}
+  .kontakt-form .par{grid-template-columns:1fr}
   .entrance{grid-template-columns:1fr;gap:24px}
   .pillars{grid-template-columns:1fr}
   .pillar{border-right:0;border-bottom:1px solid var(--rule);padding:24px 0!important}
