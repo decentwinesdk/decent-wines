@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kontakt & nyhedsbrev - Decent Wines</title>
-<meta name="description" content="Skriv til Decent Wines på Instagram, eller skriv dig op til nyhedsbrevet.">
+<meta name="description" content="Skriv til Decent Wines om bestilling, en bestemt vin eller noget vi kan skaffe hjem. Eller skriv dig op til nyhedsbrevet.">
 <meta property="og:title" content="Kontakt & nyhedsbrev - Decent Wines">
-<meta property="og:description" content="Skriv til Decent Wines på Instagram, eller skriv dig op til nyhedsbrevet.">
+<meta property="og:description" content="Skriv til Decent Wines om bestilling, en bestemt vin eller noget vi kan skaffe hjem. Eller skriv dig op til nyhedsbrevet.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="da_DK">
 <meta property="og:url" content="https://decentwines.dk/kontakt.html">
@@ -43,23 +43,63 @@
   <div class="wrap">
     <p class="eyebrow">Kontakt</p>
     <h1 style="font-size:clamp(2.2rem,5vw,3.4rem)">Sig hej</h1>
-    <p class="lede" style="margin-top:22px">Vil du bestille, h&oslash;re mere om en vin eller bare
-      snakke Nebbiolo? Send os en besked p&aring; Instagram - eller skriv dig op til
-      nyhedsbrevet herunder.</p>
+    <p class="lede" style="margin-top:22px">Der sidder ikke en kundeservice i den anden ende.
+      Der sidder os to.</p>
   </div>
 </section>
 
 <section>
   <div class="wrap contact-grid">
     <div>
-      <p class="eyebrow">F&aring; fat i os</p>
+      <p class="eyebrow">Skriv til os</p>
+      <h2 style="font-size:clamp(1.6rem,3vw,2.15rem);margin:0 0 10px">Send en besked</h2>
+      <p style="color:var(--ink-soft);max-width:52ch;margin:0">Bestilling, sp&oslash;rgsm&aring;l til en
+        vin, eller om vi kan skaffe noget hjem, vi ikke f&oslash;rer. Det hele m&aring; komme her.</p>
+
+      <form class="kontakt-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="6583e329-993d-40b0-a9e0-df22db576019">
+        <input type="hidden" name="subject" value="Ny besked fra decentwines.dk">
+        <input type="hidden" name="from_name" value="Decent Wines">
+        <input type="hidden" name="redirect" value="https://decentwines.dk/kontakt.html?sendt=1">
+
+        <div class="par">
+          <label>
+            <span class="lab">Navn</span>
+            <input type="text" name="navn" required autocomplete="name">
+          </label>
+          <label>
+            <span class="lab">E-mail</span>
+            <input type="email" name="email" required autocomplete="email">
+          </label>
+        </div>
+
+        <label>
+          <span class="lab">Restaurant eller firma <i>(valgfrit)</i></span>
+          <input type="text" name="firma" autocomplete="organization">
+        </label>
+
+        <label>
+          <span class="lab">Besked</span>
+          <textarea name="besked" required placeholder="Skriv l&oslash;s."></textarea>
+        </label>
+
+        <input class="hp" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn btn-primary" type="submit">Send</button>
+      </form>
+      <div class="form-ok" role="status"></div>
+      <p class="kontakt-note">Vi bruger kun det, du skriver, til at svare dig.
+        Beskeden sendes gennem Web3Forms og lander i vores indbakke.</p>
+    </div>
+
+    <div>
+      <p class="eyebrow">Eller find os her</p>
       <div class="info-line">
         <svg viewBox="0 0 24 24"><path d="M12 2c2.7 0 3 0 4.1.1 1 0 1.7.2 2.3.4.6.3 1.1.6 1.6 1.1s.8 1 1.1 1.6c.2.6.4 1.3.4 2.3.1 1.1.1 1.4.1 4.1s0 3-.1 4.1c0 1-.2 1.7-.4 2.3-.3.6-.6 1.1-1.1 1.6s-1 .8-1.6 1.1c-.6.2-1.3.4-2.3.4-1.1.1-1.4.1-4.1.1s-3 0-4.1-.1c-1 0-1.7-.2-2.3-.4-.6-.3-1.1-.6-1.6-1.1s-.8-1-1.1-1.6c-.2-.6-.4-1.3-.4-2.3C2 15 2 14.7 2 12s0-3 .1-4.1c0-1 .2-1.7.4-2.3.3-.6.6-1.1 1.1-1.6s1-.8 1.6-1.1c.6-.2 1.3-.4 2.3-.4C9 2 9.3 2 12 2Z" stroke-linejoin="round"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r="1"/></svg>
         <span><b>Instagram</b><a href="https://www.instagram.com/decentwines_dk/" target="_blank" rel="noopener">@decentwines_dk</a></span>
       </div>
       <div class="info-line">
         <svg viewBox="0 0 24 24"><path d="M8 3h8l-1 8a4 4 0 01-3 4v4m-3 0h6M8 3l1 8a4 4 0 003 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        <span><b>Bestilling</b>Skriv til os p&aring; Instagram for priser, m&aelig;ngder og levering.</span>
+        <span><b>Bestilling</b>Skriv i formularen, s&aring; vender vi tilbage med m&aelig;ngder og levering.</span>
       </div>
       <div class="info-line">
         <svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h.01M15 9h.01M9 13h.01M15 13h.01M9 17h6" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -70,12 +110,15 @@
         <span><b>Vi s&aelig;lger til</b>Restauranter, vinbarer og kvalitetsbevidste privatkunder.</span>
       </div>
     </div>
+  </div>
+</section>
 
-    <div class="news" id="nyhedsbrev" style="scroll-margin-top:90px">
+<section id="nyhedsbrev">
+  <div class="wrap">
+    <div class="news">
       <p class="eyebrow">Nyhedsbrev</p>
-      <h2>Skriv dig op</h2>
-      <p>F&aring; besked, n&aring;r vi henter nyt hjem, holder smagninger eller l&oslash;fter sl&oslash;ret
-        for n&aelig;ste parti. Ingen spam - kun vin.</p>
+      <h2>F&aring; besked, n&aring;r vi henter nyt hjem</h2>
+      <p>Vi skriver, n&aring;r der lander nye flasker, n&aring;r vi holder smagninger, eller n&aring;r vi l&oslash;fter sl&oslash;ret for n&aelig;ste parti. Ingen spam - kun vin.</p>
       <form class="news-form" action="https://62e904bf.sibforms.com/serve/MUIFAG2A2gWKubWiqWdExfg6kOr6Wq6eEWOk4JirmvcQedDVjGHmjH87_S_nf4TB99nz8p_yTzEKbAakLxGEgsClbC5xRG1KDWSuz-IR7HvFkXXA2cKP8D4d_4_NRy9fJrEfNiZzcUHf4L7oTyGyOHggNbIS1VZ2iAjiGGfV-3I_Qyovolha_K0lVCr4TsNomSwHNfzJsHrQ_dsoBQ==" method="POST">
         <input type="email" name="EMAIL" placeholder="Din e-mail" aria-label="E-mail" required>
         <button class="btn btn-primary" type="submit">Skriv mig op</button>
