@@ -206,7 +206,8 @@ imma_wines = (
           ("Metode", "Traditionel metode, 18 mdr. p&aring; b&aelig;rmen. St&aring;ltank, ingen fadlagring")],
          "Lys laksefarve. Jordb&aelig;r og kirseb&aelig;r, et strejf brioche. Fin syre, hindb&aelig;r, citron, lang frisk eftersmag. "
          "Til aperitif, friske skaldyr og &oslash;sters, bl&oslash;de oste, let charcuteri.",
-         [("149 kr./fl.", "750 kr. pr. kasse (6 fl.)")],
+         [("125 kr./fl.", "ved 6 stk. &middot; 750 kr. i alt"),
+          ("~Enkeltflaske: 149 kr.", "")],
          extra='<p class="etiket"><b>Etiketten</b>Bakuretsu og Arawaru er malet af den japanske kunstner '
                'Wataru Koike (f.&nbsp;1978, Nagoya) - tidligere marketingdirekt&oslash;r, i dag billedkunstner. '
                'Samarbejdet med Mas de la Pansa er en del af hans udforskning af vin som spejl af landskab og tid.</p>') +
@@ -220,7 +221,8 @@ imma_wines = (
           ("Metode", "29 dages maceration i st&aring;ltank, bl&oslash;d presning. Derefter 5 mdr. p&aring; fransk eg (2. brug)"),
           ("P&aring; flaske", "Uden fining eller filtrering")],
          "Fra marken familien plantede i 1957 p&aring; en nordvendt skr&aring;ning. Tres &aring;r gamle stokke, lavt udbytte, dybere koncentration.",
-         [("269 kr./fl.", "1.350 kr. pr. kasse (6 fl.)")],
+         [("225 kr./fl.", "ved 6 stk. &middot; 1.350 kr. i alt"),
+          ("~Enkeltflaske: 269 kr.", "")],
          extra='<p class="etiket"><b>Etiketten</b>Hesten hedder Vermell. Han reddede livet for Immas far, dengang '
                'han var tre &aring;r gammel: bedstefaren pl&oslash;jede marken, hesten n&aelig;gtede pludselig at g&aring; videre '
                '- for ved hans f&oslash;dder l&aring; den lille dreng. Et familie-skr&aelig;mmebillede, der er blevet en '
@@ -234,7 +236,8 @@ imma_wines = (
           ("Alkohol", "12 %"),
           ("Metode", "Koldmaceration, derefter kort lagring i st&aring;ltank")],
          "Lys, saftig, frisk, med krydret kant: jordb&aelig;r, ribs, granat&aelig;ble, t&oslash;rrede urter, hvid peber, lidt blomster.",
-         [("139 kr./fl.", "700 kr. pr. kasse (6 fl.)")],
+         [("117 kr./fl.", "ved 6 stk. &middot; 700 kr. i alt"),
+          ("~Enkeltflaske: 139 kr.", "")],
          extra='<p class="etiket"><b>Etiketten</b>Malet af Wataru Koike - samme kunstner som Bakuretsu.</p>')
 )
 
@@ -244,7 +247,7 @@ smagekasse = '''
         <h3>Trepat 3-pak</h3>
         <p>&Eacute;n af hver: Bakuretsu, Mas de la Pansa Trepat og Arawaru. Samme drue, samme
           k&aelig;lder, tre helt forskellige udtryk - bobler, seri&oslash;s enkeltmark og let og frisk.</p>
-        <div class="price"><b>495 kr.</b><span>for alle tre</span></div>
+        <div class="price"><b>499 kr.</b><span>for alle tre</span></div>
       </div>'''
 
 producenter = '''<section class="hero band-dark" style="padding:58px 0 52px">
